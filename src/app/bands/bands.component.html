@@ -1,0 +1,13 @@
+<section class="content-header">
+  <h1>
+    Todas as Bandas
+  </h1>
+</section>
+
+<section class="content">
+  <div class="row">
+    <div class="col-sm-6 col-xs-12" *ngFor="let band of bands">
+      <app-band [band]="band"></app-band>
+    </div>
+  </div>
+</section>
