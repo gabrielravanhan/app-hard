@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  color: #555;
+  color: #000000;
 }
 
 .box-header {
@@ -13,12 +13,12 @@ body {
  * -------------------
  */
 .place-info-box {
-  color: #555;
+  color: #C0C0C0;
   display: block;
   min-height: 120px;
-  background: #fff;
+  background:	#222428;;
   width: 100%;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
   border-radius: 2px;
   margin-bottom: 15px;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 14px;
 }
 .place-info-box .progress {
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0);
   margin: 5px -10px 5px -10px;
   height: 2px;
 }
@@ -74,16 +74,14 @@ body {
   margin-bottom: 10px;
   text-transform: uppercase;
   width: 80%;
-  float: left
-}
-.place-info-box-text {
+  float: left;
+  color: #ecf0f5;
 }
 
 .place-info-box-star {
   display: block;
   font-size: 18px;
   font-weight: bold;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   margin-bottom: 10px;
@@ -122,6 +120,7 @@ body {
   border-radius: 2px;
   margin-bottom: 15px;
 }
+
 .menu-item-info-box small {
   font-size: 14px;
 }
@@ -185,8 +184,6 @@ body {
   margin-bottom: 10px;
   text-transform: uppercase;
   width: 80%;
-}
-.menu-item-info-box-text {
 }
 
 .menu-item-info-box-more {
