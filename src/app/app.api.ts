@@ -1,0 +1,1 @@
+export const HARD_API = 'http://localhost:3000'
