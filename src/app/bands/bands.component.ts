@@ -9,12 +9,14 @@ import { Band } from './band/band.model';
 })
 export class BandsComponent implements OnInit {
 
-  bands: Band[];
+  bands: Band[] = [];
 
   constructor(private bandsService: BandsService) { }
 
   ngOnInit(): void {
-    this.bands = this.bandsService.bands();
+    this.bandsService.bands().subscribe(bands => {
+      this.bands = bands;
+    });
   }
 
 }

@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-  color: #000000;
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box-header {
@@ -13,10 +14,10 @@ body {
  * -------------------
  */
 .place-info-box {
-  color: #C0C0C0;
+  color: #8a8a8a;
   display: block;
   min-height: 120px;
-  background:	#222428;;
+  background:rgb( 249, 249, 249);
   width: 100%;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0);
   border-radius: 2px;
@@ -75,7 +76,7 @@ body {
   text-transform: uppercase;
   width: 80%;
   float: left;
-  color: #ecf0f5;
+  color: #222428;
 }
 
 .place-info-box-star {
@@ -87,6 +88,7 @@ body {
   margin-bottom: 10px;
   width: 20%;
   float: right;
+  color: #696969;
 }
 .place-info-box-more {
   display: block;
@@ -202,7 +204,7 @@ body {
 /*Jumbotrons*/
 
 .jumbotron {
-  background-color: #fff;
+  background-color: rgb( 249, 249, 249);
   text-align:center;
 }
 .jumbotron h2 {
