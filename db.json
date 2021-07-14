@@ -28,6 +28,15 @@
     },
 
     {
+      "id_banda": 9,
+      "avaliacao": 5.0,
+      "nome": "Charlie Brown Jr.",
+      "lider": "Chorão",
+      "genero": "Rock alternativo",
+      "image_path": "assets/img/bands/cbjr.jpg"
+    },
+
+    {
       "id_banda": 4,
       "avaliacao": 5.0,
       "nome": "Guns N' Roses",
@@ -52,6 +61,15 @@
       "lider": "Robert Plant",
       "genero": "Hard rock",
       "image_path": "assets/img/bands/led.jpg"
+    },
+
+    {
+      "id_banda": 9,
+      "avaliacao": 5.0,
+      "nome": "Linkin Park",
+      "lider": "Chester Bennington",
+      "genero": "Rock alternativo",
+      "image_path": "assets/img/bands/linkin-park.jpg"
     },
 
     {
