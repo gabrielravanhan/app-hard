@@ -1,93 +1,138 @@
 {
   "bands": [
     {
-      "id_banda": 1,
+      "idBanda": "ac-dc",
       "avaliacao": 5.0,
       "nome": "AC/DC",
-      "lider": "Angus Young",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/ac-dc.jpg"
+      "origem": "Sydney, Austrália",
+      "generos": [
+        "Hard rock"
+      ],
+      "imagePath": "assets/img/bands/ac-dc.jpg"
     },
-
     {
-      "id_banda": 2,
+      "idBanda": "aerosmith",
       "avaliacao": 5.0,
       "nome": "Aerosmith",
-      "lider": "Steven Tyler",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/aerosmith.jpg"
+      "origem": "Boston, EUA",
+      "generos": [
+        "Hard rock"
+      ],
+      "imagePath": "assets/img/bands/aerosmith.jpg"
     },
-
     {
-      "id_banda": 3,
+      "idBanda": "bon-jovi",
       "avaliacao": 5.0,
       "nome": "Bon Jovi",
-      "lider": "Jon Bon Jovi",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/bon-jovi.jpg"
+      "origem": "Sayreville, EUA",
+      "generos": [
+        "Hard rock",
+        "Glam metal"
+      ],
+      "imagePath": "assets/img/bands/bon-jovi.jpg"
     },
-
     {
-      "id_banda": 9,
+      "idBanda": "charlie-brown-jr",
       "avaliacao": 5.0,
       "nome": "Charlie Brown Jr.",
-      "lider": "Chorão",
-      "genero": "Rock alternativo",
-      "image_path": "assets/img/bands/cbjr.jpg"
+      "origem": "Santos, Brasil",
+      "generos": [
+        "Rock alternativo",
+        "Skate punk",
+        "Rap rock"
+      ],
+      "imagePath": "assets/img/bands/cbjr.jpg"
     },
-
     {
-      "id_banda": 4,
+      "idBanda": "guns-n-roses",
       "avaliacao": 5.0,
       "nome": "Guns N' Roses",
-      "lider": "Axl Rose",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/guns.jpg"
+      "origem": "Los Angeles, EUA",
+      "generos": [
+        "Hard rock",
+        "Heavy metal"
+      ],
+      "imagePath": "assets/img/bands/guns.jpg"
     },
-
     {
-      "id_banda": 5,
+      "idBanda": "kiss",
       "avaliacao": 5.0,
       "nome": "Kiss",
-      "lider": "Paul Stanley",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/kiss.jpg"
+      "origem": "Nova Iorque, EUA",
+      "generos": [
+        "Hard rock",
+        "Shock rock",
+        "Heavy metal"
+      ],
+      "imagePath": "assets/img/bands/kiss.jpg"
     },
-
     {
-      "id_banda": 6,
+      "idBanda": "led-zeppelin",
       "avaliacao": 5.0,
       "nome": "Led Zeppelin",
-      "lider": "Robert Plant",
-      "genero": "Hard rock",
-      "image_path": "assets/img/bands/led.jpg"
+      "origem": "Londres, Inglaterra",
+      "generos": [
+        "Hard rock",
+        "Heavy metal",
+        "Rock progressivo"
+      ],
+      "imagePath": "assets/img/bands/led.jpg"
     },
-
     {
-      "id_banda": 9,
+      "idBanda": "linkin-park",
       "avaliacao": 5.0,
       "nome": "Linkin Park",
-      "lider": "Chester Bennington",
-      "genero": "Rock alternativo",
-      "image_path": "assets/img/bands/linkin-park.jpg"
+      "origem": "Agoura Hills, EUA",
+      "generos": [
+        "Rock alternativo",
+        "Nu metal",
+        "Rap rock"
+      ],
+      "imagePath": "assets/img/bands/linkin-park.jpg"
     },
-
     {
-      "id_banda": 7,
+      "idBanda": "metallica",
+      "avaliacao": 5.0,
+      "nome": "Metallica",
+      "origem": "Los Angeles, EUA",
+      "generos": [
+        "Heavy metal"
+      ],
+      "imagePath": "assets/img/bands/metallica.jpg"
+    },
+    {
+      "idBanda": "nirvana",
       "avaliacao": 5.0,
       "nome": "Nirvana",
-      "lider": "Kurt Cobain",
-      "genero": "Grunge",
-      "image_path": "assets/img/bands/nirvana.jpg"
+      "origem": "Aberdeen, EUA",
+      "generos": [
+        "Grunge",
+        "Rock alternativo",
+        "Punk Rock"
+      ],
+      "imagePath": "assets/img/bands/nirvana.jpg"
     },
-
     {
-      "id_banda": 8,
+      "idBanda": "pearl-jam",
+      "avaliacao": 5.0,
+      "nome": "Pearl Jam",
+      "origem": "Seattle, EUA",
+      "generos": [
+        "Grunge",
+        "Rock alternativo"
+      ],
+      "imagePath": "assets/img/bands/pearl-jam.jpg"
+    },
+    {
+      "idBanda": "scorpions",
       "avaliacao": 5.0,
       "nome": "Scorpions",
-      "lider": "Klaus Meine",
-      "genero": "Hard Rock",
-      "image_path": "assets/img/bands/scorpions.jpg"
+      "origem": "Hanôver, Alemanha",
+      "generos": [
+        "Hard Rock",
+        "Heavy metal"
+      ],
+      "imagePath": "assets/img/bands/scorpions.jpg"
     }
   ]
 }

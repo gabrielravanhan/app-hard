@@ -1,8 +1,8 @@
 export interface Band {
-  id_banda: number;
+  idBanda: string;
   avaliacao: number;
   nome: string;
-  lider: string;
-  genero: string;
-  image_path: string;
+  origem: string;
+  generos: string[];
+  imagePath: string;
 }

@@ -1,15 +1,19 @@
 <a href="#">
   <div class="place-info-box">
-    <span class="place-info-box-icon"><img [src]="band.image_path" /></span>
+    <span class="place-info-box-icon"><img [src]="band.imagePath" /></span>
 
     <div class="place-info-box-content">
       <span class="place-info-box-text">{{ band.nome }}</span>
 
       <span class="place-info-box-star"><i class="fa fa-star"></i>{{ band.avaliacao }}</span>
 
-      <span class="place-info-box-detail">{{ band.lider }}</span>
+      <span class="place-info-box-detail">{{ band.origem }}</span>
 
-      <span class="place-info-box-detail">{{ band.genero }}</span>
+      <span class="place-info-box-detail">
+        <h6>
+          <span class="badge bg-secondary" *ngFor="let band of band.generos">{{ band }}</span>
+        </h6>
+      </span>
     </div>
   </div>
 </a>
