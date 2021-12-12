@@ -12,6 +12,7 @@ import { BandsComponent } from './bands/bands.component';
 import { BandComponent } from './bands/band/band.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
+import { BandDetailComponent } from './band-detail/band-detail.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { ToastrModule } from 'ngx-toastr';
     HomeComponent,
     AboutComponent,
     BandsComponent,
-    BandComponent
+    BandComponent,
+    BandDetailComponent
   ],
   imports: [
     BrowserModule,
