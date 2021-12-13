@@ -1,137 +1,162 @@
 {
   "bands": [
     {
-      "idBanda": "ac-dc",
-      "avaliacao": 5.0,
-      "nome": "AC/DC",
-      "origem": "Sydney, Austrália",
-      "generos": [
+      "idBand": "ac-dc",
+      "name": "AC/DC",
+      "origin": "Sydney, Austrália",
+      "country": "Austrália",
+      "genres": [
         "Hard rock"
       ],
+      "description": "AC/DC é uma banda australiana de rock formada em 1973",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/ac-dc.jpg"
     },
     {
-      "idBanda": "aerosmith",
-      "avaliacao": 5.0,
-      "nome": "Aerosmith",
-      "origem": "Boston, EUA",
-      "generos": [
+      "idBand": "aerosmith",
+      "name": "Aerosmith",
+      "origin": "Boston, Massachusetts",
+      "country": "EUA",
+      "genres": [
         "Hard rock"
       ],
+      "description": "Aerosmith é uma banda estadunidense de rock formada em 1970",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/aerosmith.jpg"
     },
     {
-      "idBanda": "bon-jovi",
-      "avaliacao": 5.0,
-      "nome": "Bon Jovi",
-      "origem": "Sayreville, EUA",
-      "generos": [
+      "idBand": "bon-jovi",
+      "name": "Bon Jovi",
+      "origin": "Sayreville, Nova Jérsei",
+      "country": "EUA",
+      "genres": [
         "Hard rock",
         "Glam metal"
       ],
+      "description": "Bon Jovi é uma banda estadunidense de rock formada em 1983",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/bon-jovi.jpg"
     },
     {
-      "idBanda": "charlie-brown-jr",
-      "avaliacao": 5.0,
-      "nome": "Charlie Brown Jr.",
-      "origem": "Santos, Brasil",
-      "generos": [
+      "idBand": "charlie-brown-jr",
+      "name": "Charlie Brown Jr.",
+      "origin": "Santos, São Paulo",
+      "country": "Brasil",
+      "genres": [
         "Rock alternativo",
         "Skate punk",
         "Rap rock"
       ],
+      "description": "Charlie Brown Jr. foi uma banda de rock brasileira formada em 1992",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/cbjr.jpg"
     },
     {
-      "idBanda": "guns-n-roses",
-      "avaliacao": 5.0,
-      "nome": "Guns N' Roses",
-      "origem": "Los Angeles, EUA",
-      "generos": [
+      "idBand": "guns-n-roses",
+      "name": "Guns N' Roses",
+      "origin": "Los Angeles, Califórnia",
+      "country": "EUA",
+      "genres": [
         "Hard rock",
         "Heavy metal"
       ],
+      "description": "Guns N' Roses é uma banda estadunidense de rock formada em 1985",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/guns.jpg"
     },
     {
-      "idBanda": "kiss",
-      "avaliacao": 5.0,
-      "nome": "Kiss",
-      "origem": "Nova Iorque, EUA",
-      "generos": [
+      "idBand": "kiss",
+      "name": "Kiss",
+      "origin": "Nova Iorque, Nova Iorque",
+      "country": "EUA",
+      "genres": [
         "Hard rock",
         "Shock rock",
         "Heavy metal"
       ],
+      "description": "Kiss é uma banda estadunidense de rock formada em 1973",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/kiss.jpg"
     },
     {
-      "idBanda": "led-zeppelin",
-      "avaliacao": 5.0,
-      "nome": "Led Zeppelin",
-      "origem": "Londres, Inglaterra",
-      "generos": [
+      "idBand": "led-zeppelin",
+      "name": "Led Zeppelin",
+      "origin": "Londres, Inglaterra",
+      "country": "Reino Unido",
+      "genres": [
         "Hard rock",
         "Heavy metal",
         "Rock progressivo"
       ],
+      "description": "Led Zeppelin foi uma banda britânica de rock formada em 1968",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/led.jpg"
     },
     {
-      "idBanda": "linkin-park",
-      "avaliacao": 5.0,
-      "nome": "Linkin Park",
-      "origem": "Agoura Hills, EUA",
-      "generos": [
+      "idBand": "linkin-park",
+      "name": "Linkin Park",
+      "origin": "Agoura Hills, Califórnia",
+      "country": "EUA",
+      "genres": [
         "Rock alternativo",
         "Nu metal",
         "Rap rock"
       ],
+      "description": "Linkin Park é uma banda estadunidense de rock formada em 1996",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/linkin-park.jpg"
     },
     {
-      "idBanda": "metallica",
-      "avaliacao": 5.0,
-      "nome": "Metallica",
-      "origem": "Los Angeles, EUA",
-      "generos": [
-        "Heavy metal"
+      "idBand": "metallica",
+      "name": "Metallica",
+      "origin": "Los Angeles, Califórnia",
+      "country": "EUA",
+      "genres": [
+        "Heavy metal",
+        "Thrash metal"
       ],
+      "description": "Metallica é uma banda estadunidense de rock formada em 1981",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/metallica.jpg"
     },
     {
-      "idBanda": "nirvana",
-      "avaliacao": 5.0,
-      "nome": "Nirvana",
-      "origem": "Aberdeen, EUA",
-      "generos": [
+      "idBand": "nirvana",
+      "name": "Nirvana",
+      "origin": "Aberdeen, Washington",
+      "country": "EUA",
+      "genres": [
         "Grunge",
         "Rock alternativo",
         "Punk Rock"
       ],
+      "description": "Nirvana foi uma banda estadunidense de rock formada em 1987",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/nirvana.jpg"
     },
     {
-      "idBanda": "pearl-jam",
-      "avaliacao": 5.0,
-      "nome": "Pearl Jam",
-      "origem": "Seattle, EUA",
-      "generos": [
+      "idBand": "pearl-jam",
+      "name": "Pearl Jam",
+      "origin": "Seattle, Washington",
+      "country": "EUA",
+      "genres": [
         "Grunge",
         "Rock alternativo"
       ],
+      "description": "Pearl Jam é uma banda estadunidense de rock formada em 1990",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/pearl-jam.jpg"
     },
     {
-      "idBanda": "scorpions",
-      "avaliacao": 5.0,
-      "nome": "Scorpions",
-      "origem": "Hanôver, Alemanha",
-      "generos": [
+      "idBand": "scorpions",
+      "name": "Scorpions",
+      "origin": "Hanôver, Baixa Saxônia",
+      "country": "Alemanha",
+      "genres": [
         "Hard Rock",
         "Heavy metal"
       ],
+      "description": "Scorpions é uma banda alemã de rock formada em 1965",
+      "rating": 5.0,
       "imagePath": "assets/img/bands/scorpions.jpg"
     }
   ]

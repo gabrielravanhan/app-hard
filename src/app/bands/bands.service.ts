@@ -11,8 +11,7 @@ import { ToastrService } from 'ngx-toastr';
 })
 export class BandsService {
 
-  constructor(private http: HttpClient,
-    private toastr: ToastrService) { }
+  constructor(private http: HttpClient, private toastr: ToastrService) { }
 
   bands(): Observable<Band[]> {
     return this.http.get<Band[]>(`${HARD_API}/bands`).pipe(
@@ -24,7 +23,7 @@ export class BandsService {
   exibeErro(e: any): Observable<any> {
     this.exibirMensagem('ERRO', 'A operação não pôde ser realizada.', 'toast-error');
     return EMPTY
-  } 
+  }
 
   exibirMensagem(titulo: string, mensagem: string, tipo: string): void {
     this.toastr.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo);

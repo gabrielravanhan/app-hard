@@ -1,8 +1,10 @@
 export interface Band {
-  idBanda: string;
-  avaliacao: number;
-  nome: string;
-  origem: string;
-  generos: string[];
+  idBand: string;
+  name: string;
+  origin: string;
+  country: string;
+  genres: string[];
+  description: string;
+  rating: number;
   imagePath: string;
 }
