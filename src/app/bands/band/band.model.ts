@@ -1,5 +1,5 @@
 export interface Band {
-  idBand: string;
+  id: string;
   name: string;
   origin: string;
   country: string;

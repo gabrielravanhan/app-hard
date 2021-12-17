@@ -1,7 +1,7 @@
 {
   "bands": [
     {
-      "idBand": "ac-dc",
+      "id": "ac-dc",
       "name": "AC/DC",
       "origin": "Sydney, Austrália",
       "country": "Austrália",
@@ -13,7 +13,7 @@
       "imagePath": "assets/img/bands/ac-dc.jpg"
     },
     {
-      "idBand": "aerosmith",
+      "id": "aerosmith",
       "name": "Aerosmith",
       "origin": "Boston, Massachusetts",
       "country": "EUA",
@@ -25,7 +25,7 @@
       "imagePath": "assets/img/bands/aerosmith.jpg"
     },
     {
-      "idBand": "bon-jovi",
+      "id": "bon-jovi",
       "name": "Bon Jovi",
       "origin": "Sayreville, Nova Jérsei",
       "country": "EUA",
@@ -38,7 +38,7 @@
       "imagePath": "assets/img/bands/bon-jovi.jpg"
     },
     {
-      "idBand": "charlie-brown-jr",
+      "id": "charlie-brown-jr",
       "name": "Charlie Brown Jr.",
       "origin": "Santos, São Paulo",
       "country": "Brasil",
@@ -52,7 +52,7 @@
       "imagePath": "assets/img/bands/cbjr.jpg"
     },
     {
-      "idBand": "guns-n-roses",
+      "id": "guns-n-roses",
       "name": "Guns N' Roses",
       "origin": "Los Angeles, Califórnia",
       "country": "EUA",
@@ -65,7 +65,7 @@
       "imagePath": "assets/img/bands/guns.jpg"
     },
     {
-      "idBand": "kiss",
+      "id": "kiss",
       "name": "Kiss",
       "origin": "Nova Iorque, Nova Iorque",
       "country": "EUA",
@@ -79,7 +79,7 @@
       "imagePath": "assets/img/bands/kiss.jpg"
     },
     {
-      "idBand": "led-zeppelin",
+      "id": "led-zeppelin",
       "name": "Led Zeppelin",
       "origin": "Londres, Inglaterra",
       "country": "Reino Unido",
@@ -93,7 +93,7 @@
       "imagePath": "assets/img/bands/led.jpg"
     },
     {
-      "idBand": "linkin-park",
+      "id": "linkin-park",
       "name": "Linkin Park",
       "origin": "Agoura Hills, Califórnia",
       "country": "EUA",
@@ -107,7 +107,7 @@
       "imagePath": "assets/img/bands/linkin-park.jpg"
     },
     {
-      "idBand": "metallica",
+      "id": "metallica",
       "name": "Metallica",
       "origin": "Los Angeles, Califórnia",
       "country": "EUA",
@@ -120,7 +120,7 @@
       "imagePath": "assets/img/bands/metallica.jpg"
     },
     {
-      "idBand": "nirvana",
+      "id": "nirvana",
       "name": "Nirvana",
       "origin": "Aberdeen, Washington",
       "country": "EUA",
@@ -134,7 +134,7 @@
       "imagePath": "assets/img/bands/nirvana.jpg"
     },
     {
-      "idBand": "pearl-jam",
+      "id": "pearl-jam",
       "name": "Pearl Jam",
       "origin": "Seattle, Washington",
       "country": "EUA",
@@ -147,7 +147,7 @@
       "imagePath": "assets/img/bands/pearl-jam.jpg"
     },
     {
-      "idBand": "scorpions",
+      "id": "scorpions",
       "name": "Scorpions",
       "origin": "Hanôver, Baixa Saxônia",
       "country": "Alemanha",

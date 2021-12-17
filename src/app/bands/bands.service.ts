@@ -28,4 +28,11 @@ export class BandsService {
   exibirMensagem(titulo: string, mensagem: string, tipo: string): void {
     this.toastr.show(mensagem, titulo, { closeButton: true, progressBar: true }, tipo);
   }
+
+  bandById(id: String): Observable<Band> {
+    return this.http.get<Band>(`${HARD_API}/bands/${id}`).pipe(
+      map(bands => bands),
+      catchError(erro => this.exibeErro(erro))
+    );
+  }
 }
